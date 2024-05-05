@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 
 # Envs
-envs/.env.prod
+envs/
 
 # Data
 data/

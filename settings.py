@@ -6,7 +6,7 @@ from pathlib import Path
 from pydantic_settings import BaseSettings
 
 # Load Environment File
-env_file = "/mnt/c/BitHealth/workspace/repo/LLM_Text2SQL_Comparison_Research/envs/.env.prod"
+env_file = "envs/.env.prod"
 if not Path(env_file).exists():
     print(
         f"Environment File {env_file} not found. please create one based on envs/.env.dev. exiting..."
