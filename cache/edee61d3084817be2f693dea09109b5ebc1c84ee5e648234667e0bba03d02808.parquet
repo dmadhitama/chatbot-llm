@@ -1,0 +1,123 @@
+organization_id,hospital_region,hospital_type,archetype,hospital_name,hospital_address,hospital_code,month,year,gwi_score,rank_unit_top,rank_unit_bottom,month_year,quarter_year,semester_year
+16.0,Region 3,BPJS,BPJS,Siloam Hospitals Kupang,"Jl. R.W Mongonsidi, Kel. Fatululi, Kec. Oebobo  Kota Kupang, Ntt  No. Telp. 0380-8530 900",SHKP,1,2024,65.6760027426636,41,1,12024,Q1-2024,S1-2024
+48.0,Region 4,Ramping Up,Value Seeker,Siloam Hospitals Banjarmasin,,SHBJ,1,2024,66.8203844854672,40,2,12024,Q1-2024,S1-2024
+44.0,Region 1,Distinct,Premium,Siloam Hospitals Mampang,"PT Sentra Sejahtera Utama Jl. Mampang Prapatan XVI, Kelurahan Duren Tiga, Kecamatan Pancoran , Jakarta Selatan",SHMA,1,2024,70.3815710864174,39,3,12024,Q1-2024,S1-2024
+41.0,Region 3,Ramping Up,BPJS,Siloam Hospitals Ambon,,SHAB,1,2024,70.3862666746585,38,4,12024,Q1-2024,S1-2024
+15.0,Region 1,Mature,Premium,Siloam Hospitals Tb Simatupang,"Jl. R.A Kartini No. 8 Cilandak, Jakarta Selatan  Telp.  (021) 2953-1900",SHTB,1,2024,70.8055564257595,37,5,12024,Q1-2024,S1-2024
+23.0,Region 1,Hospital Services,Premium,Siloam Hospitals Agora Cempaka Putih,"Holland Village , Jl. LetJen Suprapto Kav 60 No 1 Cempaka Putih Jakarta 10510",SHAG,1,2024,73.7944917358644,36,6,12024,Q1-2024,S1-2024
+51.0,Region 2,Ramping Up,Value Seeker,Siloam Hospitals Semarang,Jl. Kompol Maksum No. 296 Semarang  Telp : (024) - 8600 1 900,SHSR,1,2024,76.914525106935,35,7,12024,Q1-2024,S1-2024
+10.0,Region 4,Mature,Value Seeker,Siloam Hospitals Balikpapan,Jalan Mt. Haryono No. 23 - Ring Road Balikpapan,SHBP,1,2024,78.5031425319965,34,8,12024,Q1-2024,S1-2024
+12.0,Region 2,Mature,Value Seeker,Siloam Hospitals Bogor,"PT TATAKA BUMI KARYA  JALAN PADJAJARAN 27  BABAKAN, BOGOR TENGAH  KOTA BOGOR - JAWA BARAT",SHBG,1,2024,79.2410601207208,33,9,12024,Q1-2024,S1-2024
+39.0,Region 3,Ramping Up,BPJS,Siloam Hospital Labuan Bajo,,SHLB,1,2024,79.9276654616344,32,10,12024,Q1-2024,S1-2024
+31.0,Region 2,Ramping Up,BPJS, Siloam Hospitals Subanu Wathon,Null,RSUSW,1,2024,80.4909505635098,31,11,12024,Q1-2024,S1-2024
+22.0,Region 2,Mature,BPJS,Rumah Sakit Putera Bahagia,Jl. Ciremai Raya No. 114 Kota Cirebon   Telp : (0231) - 485654,SHCB,1,2024,80.8982556521031,30,12,12024,Q1-2024,S1-2024
+30.0,Region 1,Distinct,Value Seeker,- Siloam Hospitals Kelapa Dua,Jl. Kelapa Dua Raya No 1001,RSUSKD,1,2024,81.1026873189407,29,13,12024,Q1-2024,S1-2024
+28.0,Region 4,Mature,BPJS,Siloam Hospitals Manado,"Boulevard Centre, Jl. Sam Ratulangi No.22  Manado, Sulawesi Utara",SHMN,1,2024,81.3440983801423,28,14,12024,Q1-2024,S1-2024
+25.0,Region 2,BPJS,Value Seeker,Rumah Sakit Umum Sentosa Bekasi,"Jl. Pahlawan No. 60, Duren Jaya,  Bekasi Timur  Telp : (021) - 880 6140",SHST,1,2024,81.8062650385916,27,15,12024,Q1-2024,S1-2024
+29.0,Region 2,BPJS,BPJS,Siloam Hospitals Purwakarta,Null,SHPW,1,2024,82.6087479509795,26,16,12024,Q1-2024,S1-2024
+7.0,Region 1,BPJS,BPJS,Rumah Sakit Umum Siloam,Jalan Siloam No.6 Tangerang,RSUS,1,2024,83.2470764588967,25,17,12024,Q1-2024,S1-2024
+34.0,Region 5,Mature,Value Seeker,Siloam Hospitals Dhirga Surya,Null,SHMD,1,2024,83.6269860021088,24,18,12024,Q1-2024,S1-2024
+4.0,Region 2,Mature,Value Seeker,Siloam Hospitals Lippo Cikarang,Null,SHLC,1,2024,83.6498278247442,23,19,12024,Q1-2024,S1-2024
+42.0,Region 4,Ramping Up,BPJS,Siloam Hospitals Paal Dua,,SHPD,1,2024,85.8044352460546,22,20,12024,Q1-2024,S1-2024
+2.0,Region 1,Flagship,Premium,Siloam Hospitals Lippo Village,Jalan Siloam No.6 Tangerang  Telp : 021 - 5460055  Fax  : 021 - 54210090,SHLV,1,2024,85.9367189575942,21,21,12024,Q1-2024,S1-2024
+19.0,Region 1,Flagship,Premium, MRCCC Siloam Hospitals Semanggi,Null,MRCCC,1,2024,86.1965712604487,20,22,12024,Q1-2024,S1-2024
+43.0,Region 4,Ramping Up,BPJS,Siloam Hospital Baubau,,SHBN,1,2024,86.3587997949288,19,23,12024,Q1-2024,S1-2024
+6.0,Region 5,Mature,Value Seeker,Siloam Hospitals Jambi,"Jl. Soekarno Hatta, Paal Merah  Jambi, Kota",SHJB,1,2024,86.4675646297423,18,24,12024,Q1-2024,S1-2024
+33.0,Region 4,Mature,Value Seeker,Siloam Hospitals Palangkaraya,Null,SHPR,1,2024,87.0903818031627,17,25,12024,Q1-2024,S1-2024
+5.0,Region 3,Mature,Premium,Siloam Hospitals Surabaya,Null,SHSB,1,2024,87.212522888352,16,26,12024,Q1-2024,S1-2024
+26.0,Region 3,Mature,Value Seeker,Rumah Sakit Grha Ultima Medika,"Jalan Majapahit No. 10, Mataram",SHMT,1,2024,87.2955050897127,15,27,12024,Q1-2024,S1-2024
+20.0,Region 5,Ramping Up,BPJS,Siloam Hospitals Lubuk Linggau,"Pt. Lintang Laksana Utama  Jalan Yos Sudarso Rt.011  Taba Jemekeh, Lubuk Linggau Timur 1  Kota Lubuk Linggau, Sumatera Selatan  ",SHLL,1,2024,87.5767400508334,14,28,12024,Q1-2024,S1-2024
+27.0,Region 1,Distinct,Premium,Siloam Hospitals Asri,"Jl. Duren Tiga Raya No. 20 Jakarta, 12760",ASRI,1,2024,88.6832171179712,13,29,12024,Q1-2024,S1-2024
+37.0,Region 2,BPJS,Premium,Siloam Hospitals Bekasi Timur,Null,SHBT,1,2024,89.0027769814643,12,30,12024,Q1-2024,S1-2024
+17.0,Region 5,Mature,Value Seeker,Siloam Sriwijaya,"Jl. Pom Ix Kompleks Palembang Square, Palembang 30137   Telp (0711) 5229100",SHPL,1,2024,89.0473239640341,11,31,12024,Q1-2024,S1-2024
+14.0,Region 3,Mature,Premium,Siloam Hospitals Denpasar,"Jl. Sunset Road No. 818, Kuta. Bali  Telp. (0361) 779900",SHDP,1,2024,89.8440826753723,10,32,12024,Q1-2024,S1-2024
+3.0,Region 1,Flagship,Premium,Siloam Hospitals Kebon Jeruk,"Jl. Raya Pejuangan Kav 8 Kebon Jeruk, Jakarta Barat  Telp: 021-25677888 ",SHKJ,1,2024,89.9231285163297,9,33,12024,Q1-2024,S1-2024
+9.0,Region 4,Mature,Value Seeker,Siloam Hospitals Makassar,Jalan Metro Tanjung Bunga Kav. 9  Tanjung Merdeka - Tamalate  Makassar,SHMK,1,2024,90.0055889218447,8,34,12024,Q1-2024,S1-2024
+36.0,Region 2,Mature,Value Seeker,Siloam Hospital Bekasi Selatan (Hosana),,SHBS,1,2024,90.1547524835936,7,35,12024,Q1-2024,S1-2024
+13.0,Region 5,Ramping Up,BPJS,Siloam Hospitals Bangka Tengah,Null,SHBB,1,2024,90.7129572300578,6,36,12024,Q1-2024,S1-2024
+8.0,Region 1,Mature,Premium,RS Jantung Diagram,Null,SHCN,1,2024,91.326653533726,5,37,12024,Q1-2024,S1-2024
+21.0,Region 3,Ramping Up,BPJS,Siloam Hospitals Jember,"Pt. Kirana Puspa Cemerlang  Jl. Gajah Mada 104, Jember Kidul Kaliwates  Kab. Jember Jawa Timur",SHJR,1,2024,91.4058058400938,4,38,12024,Q1-2024,S1-2024
+11.0,Region 2,Mature,Value Seeker,Siloam Hospitals Yogyakarta,"Pt. Taruna Perkasa Megah Jalan Laksda Adisucipto 32-34 Yogyakarta, 55221",SHYG,1,2024,91.4464986372949,3,39,12024,Q1-2024,S1-2024
+81.0,Region 3,Distinct,Premium,SA DUA - BIMC Nusa Dua,,BIMC NUSA DUA,1,2024,92.1439714954293,2,40,12024,Q1-2024,S1-2024
+80.0,Region 3,Distinct,Premium,TA - BIMC Kuta,,BIMC KUTA,1,2024,93.2882266033656,1,41,12024,Q1-2024,S1-2024
+12.0,Region 2,Mature,Value Seeker,Siloam Hospitals Bogor,"PT TATAKA BUMI KARYA  JALAN PADJAJARAN 27  BABAKAN, BOGOR TENGAH  KOTA BOGOR - JAWA BARAT",SHBG,1,2022,45.229669444,40,1,12022,Q1-2022,S1-2022
+44.0,Region 1,Distinct,Premium,Siloam Hospitals Mampang,"PT Sentra Sejahtera Utama Jl. Mampang Prapatan XVI, Kelurahan Duren Tiga, Kecamatan Pancoran , Jakarta Selatan",SHMA,1,2022,49.438054994,39,2,12022,Q1-2022,S1-2022
+15.0,Region 1,Mature,Premium,Siloam Hospitals Tb Simatupang,"Jl. R.A Kartini No. 8 Cilandak, Jakarta Selatan  Telp.  (021) 2953-1900",SHTB,1,2022,49.856003703,38,3,12022,Q1-2022,S1-2022
+33.0,Region 4,Mature,Value Seeker,Siloam Hospitals Palangkaraya,Null,SHPR,1,2022,53.139465558,37,4,12022,Q1-2022,S1-2022
+30.0,Region 1,Distinct,Value Seeker,- Siloam Hospitals Kelapa Dua,Jl. Kelapa Dua Raya No 1001,RSUSKD,1,2022,58.278133641,36,5,12022,Q1-2022,S1-2022
+81.0,Region 3,Distinct,Premium,SA DUA - BIMC Nusa Dua,,BIMC NUSA DUA,1,2022,58.523710626,35,6,12022,Q1-2022,S1-2022
+27.0,Region 1,Distinct,Premium,Siloam Hospitals Asri,"Jl. Duren Tiga Raya No. 20 Jakarta, 12760",ASRI,1,2022,58.814287459,34,7,12022,Q1-2022,S1-2022
+19.0,Region 1,Flagship,Premium, MRCCC Siloam Hospitals Semanggi,Null,MRCCC,1,2022,58.872600792,33,8,12022,Q1-2022,S1-2022
+6.0,Region 5,Mature,Value Seeker,Siloam Hospitals Jambi,"Jl. Soekarno Hatta, Paal Merah  Jambi, Kota",SHJB,1,2022,61.107294582,32,9,12022,Q1-2022,S1-2022
+37.0,Region 2,BPJS,Premium,Siloam Hospitals Bekasi Timur,Null,SHBT,1,2022,61.501754069,31,10,12022,Q1-2022,S1-2022
+22.0,Region 2,Mature,BPJS,Rumah Sakit Putera Bahagia,Jl. Ciremai Raya No. 114 Kota Cirebon   Telp : (0231) - 485654,SHCB,1,2022,62.177405302,30,11,12022,Q1-2022,S1-2022
+41.0,Region 3,Ramping Up,BPJS,Siloam Hospitals Ambon,,SHAB,1,2022,64.807657459,29,12,12022,Q1-2022,S1-2022
+9.0,Region 4,Mature,Value Seeker,Siloam Hospitals Makassar,Jalan Metro Tanjung Bunga Kav. 9  Tanjung Merdeka - Tamalate  Makassar,SHMK,1,2022,66.035086531,28,13,12022,Q1-2022,S1-2022
+14.0,Region 3,Mature,Premium,Siloam Hospitals Denpasar,"Jl. Sunset Road No. 818, Kuta. Bali  Telp. (0361) 779900",SHDP,1,2022,66.755880518,27,14,12022,Q1-2022,S1-2022
+16.0,Region 3,BPJS,BPJS,Siloam Hospitals Kupang,"Jl. R.W Mongonsidi, Kel. Fatululi, Kec. Oebobo  Kota Kupang, Ntt  No. Telp. 0380-8530 900",SHKP,1,2022,68.604424183,26,15,12022,Q1-2022,S1-2022
+31.0,Region 2,Ramping Up,BPJS, Siloam Hospitals Subanu Wathon,Null,RSUSW,1,2022,68.633144964,25,16,12022,Q1-2022,S1-2022
+28.0,Region 4,Mature,BPJS,Siloam Hospitals Manado,"Boulevard Centre, Jl. Sam Ratulangi No.22  Manado, Sulawesi Utara",SHMN,1,2022,68.904920696,24,17,12022,Q1-2022,S1-2022
+13.0,Region 5,Ramping Up,BPJS,Siloam Hospitals Bangka Tengah,Null,SHBB,1,2022,70.296223456,23,18,12022,Q1-2022,S1-2022
+7.0,Region 1,BPJS,BPJS,Rumah Sakit Umum Siloam,Jalan Siloam No.6 Tangerang,RSUS,1,2022,70.895475758,22,19,12022,Q1-2022,S1-2022
+43.0,Region 4,Ramping Up,BPJS,Siloam Hospital Baubau,,SHBN,1,2022,71.123293209,21,20,12022,Q1-2022,S1-2022
+10.0,Region 4,Mature,Value Seeker,Siloam Hospitals Balikpapan,Jalan Mt. Haryono No. 23 - Ring Road Balikpapan,SHBP,1,2022,72.961729814,20,21,12022,Q1-2022,S1-2022
+20.0,Region 5,Ramping Up,BPJS,Siloam Hospitals Lubuk Linggau,"Pt. Lintang Laksana Utama  Jalan Yos Sudarso Rt.011  Taba Jemekeh, Lubuk Linggau Timur 1  Kota Lubuk Linggau, Sumatera Selatan  ",SHLL,1,2022,73.111987419,19,22,12022,Q1-2022,S1-2022
+48.0,Region 4,Ramping Up,Value Seeker,Siloam Hospitals Banjarmasin,,SHBJ,1,2022,73.165642481,18,23,12022,Q1-2022,S1-2022
+39.0,Region 3,Ramping Up,BPJS,Siloam Hospital Labuan Bajo,,SHLB,1,2022,74.856283192,17,24,12022,Q1-2022,S1-2022
+21.0,Region 3,Ramping Up,BPJS,Siloam Hospitals Jember,"Pt. Kirana Puspa Cemerlang  Jl. Gajah Mada 104, Jember Kidul Kaliwates  Kab. Jember Jawa Timur",SHJR,1,2022,74.857679047,16,25,12022,Q1-2022,S1-2022
+3.0,Region 1,Flagship,Premium,Siloam Hospitals Kebon Jeruk,"Jl. Raya Pejuangan Kav 8 Kebon Jeruk, Jakarta Barat  Telp: 021-25677888 ",SHKJ,1,2022,76.6402858,15,26,12022,Q1-2022,S1-2022
+5.0,Region 3,Mature,Premium,Siloam Hospitals Surabaya,Null,SHSB,1,2022,77.34139162,14,27,12022,Q1-2022,S1-2022
+26.0,Region 3,Mature,Value Seeker,Rumah Sakit Grha Ultima Medika,"Jalan Majapahit No. 10, Mataram",SHMT,1,2022,77.35355867,13,28,12022,Q1-2022,S1-2022
+4.0,Region 2,Mature,Value Seeker,Siloam Hospitals Lippo Cikarang,Null,SHLC,1,2022,78.006550409,12,29,12022,Q1-2022,S1-2022
+51.0,Region 2,Ramping Up,Value Seeker,Siloam Hospitals Semarang,Jl. Kompol Maksum No. 296 Semarang  Telp : (024) - 8600 1 900,SHSR,1,2022,78.379990644,11,30,12022,Q1-2022,S1-2022
+8.0,Region 1,Mature,Premium,RS Jantung Diagram,Null,SHCN,1,2022,78.875442175,10,31,12022,Q1-2022,S1-2022
+42.0,Region 4,Ramping Up,BPJS,Siloam Hospitals Paal Dua,,SHPD,1,2022,79.500051352,9,32,12022,Q1-2022,S1-2022
+17.0,Region 5,Mature,Value Seeker,Siloam Sriwijaya,"Jl. Pom Ix Kompleks Palembang Square, Palembang 30137   Telp (0711) 5229100",SHPL,1,2022,82.868305211,8,33,12022,Q1-2022,S1-2022
+2.0,Region 1,Flagship,Premium,Siloam Hospitals Lippo Village,Jalan Siloam No.6 Tangerang  Telp : 021 - 5460055  Fax  : 021 - 54210090,SHLV,1,2022,83.25217756,7,34,12022,Q1-2022,S1-2022
+25.0,Region 2,BPJS,Value Seeker,Rumah Sakit Umum Sentosa Bekasi,"Jl. Pahlawan No. 60, Duren Jaya,  Bekasi Timur  Telp : (021) - 880 6140",SHST,1,2022,83.741887235,6,35,12022,Q1-2022,S1-2022
+36.0,Region 2,Mature,Value Seeker,Siloam Hospital Bekasi Selatan (Hosana),,SHBS,1,2022,83.792015816,5,36,12022,Q1-2022,S1-2022
+29.0,Region 2,BPJS,BPJS,Siloam Hospitals Purwakarta,Null,SHPW,1,2022,84.848674903,4,37,12022,Q1-2022,S1-2022
+80.0,Region 3,Distinct,Premium,TA - BIMC Kuta,,BIMC KUTA,1,2022,85.830965909,3,38,12022,Q1-2022,S1-2022
+34.0,Region 5,Mature,Value Seeker,Siloam Hospitals Dhirga Surya,Null,SHMD,1,2022,86.35749205,2,39,12022,Q1-2022,S1-2022
+11.0,Region 2,Mature,Value Seeker,Siloam Hospitals Yogyakarta,"Pt. Taruna Perkasa Megah Jalan Laksda Adisucipto 32-34 Yogyakarta, 55221",SHYG,1,2022,88.298434203,1,40,12022,Q1-2022,S1-2022
+27.0,Region 1,Distinct,Premium,Siloam Hospitals Asri,"Jl. Duren Tiga Raya No. 20 Jakarta, 12760",ASRI,1,2023,55.9076124,41,1,12023,Q1-2023,S1-2023
+10.0,Region 4,Mature,Value Seeker,Siloam Hospitals Balikpapan,Jalan Mt. Haryono No. 23 - Ring Road Balikpapan,SHBP,1,2023,57.41990494,40,2,12023,Q1-2023,S1-2023
+17.0,Region 5,Mature,Value Seeker,Siloam Sriwijaya,"Jl. Pom Ix Kompleks Palembang Square, Palembang 30137   Telp (0711) 5229100",SHPL,1,2023,62.12803711,39,3,12023,Q1-2023,S1-2023
+14.0,Region 3,Mature,Premium,Siloam Hospitals Denpasar,"Jl. Sunset Road No. 818, Kuta. Bali  Telp. (0361) 779900",SHDP,1,2023,62.68946427,38,4,12023,Q1-2023,S1-2023
+34.0,Region 5,Mature,Value Seeker,Siloam Hospitals Dhirga Surya,Null,SHMD,1,2023,62.77449396,37,5,12023,Q1-2023,S1-2023
+33.0,Region 4,Mature,Value Seeker,Siloam Hospitals Palangkaraya,Null,SHPR,1,2023,64.26449833,36,6,12023,Q1-2023,S1-2023
+4.0,Region 2,Mature,Value Seeker,Siloam Hospitals Lippo Cikarang,Null,SHLC,1,2023,67.11940532,35,7,12023,Q1-2023,S1-2023
+15.0,Region 1,Mature,Premium,Siloam Hospitals Tb Simatupang,"Jl. R.A Kartini No. 8 Cilandak, Jakarta Selatan  Telp.  (021) 2953-1900",SHTB,1,2023,67.93699387,34,8,12023,Q1-2023,S1-2023
+23.0,Region 1,Hospital Services,Premium,Siloam Hospitals Agora Cempaka Putih,"Holland Village , Jl. LetJen Suprapto Kav 60 No 1 Cempaka Putih Jakarta 10510",SHAG,1,2023,68.6520241,33,9,12023,Q1-2023,S1-2023
+12.0,Region 2,Mature,Value Seeker,Siloam Hospitals Bogor,"PT TATAKA BUMI KARYA  JALAN PADJAJARAN 27  BABAKAN, BOGOR TENGAH  KOTA BOGOR - JAWA BARAT",SHBG,1,2023,68.82255781,32,10,12023,Q1-2023,S1-2023
+21.0,Region 3,Ramping Up,BPJS,Siloam Hospitals Jember,"Pt. Kirana Puspa Cemerlang  Jl. Gajah Mada 104, Jember Kidul Kaliwates  Kab. Jember Jawa Timur",SHJR,1,2023,68.92480459,31,11,12023,Q1-2023,S1-2023
+44.0,Region 1,Distinct,Premium,Siloam Hospitals Mampang,"PT Sentra Sejahtera Utama Jl. Mampang Prapatan XVI, Kelurahan Duren Tiga, Kecamatan Pancoran , Jakarta Selatan",SHMA,1,2023,69.18885677,30,12,12023,Q1-2023,S1-2023
+28.0,Region 4,Mature,BPJS,Siloam Hospitals Manado,"Boulevard Centre, Jl. Sam Ratulangi No.22  Manado, Sulawesi Utara",SHMN,1,2023,70.02050416,29,13,12023,Q1-2023,S1-2023
+26.0,Region 3,Mature,Value Seeker,Rumah Sakit Grha Ultima Medika,"Jalan Majapahit No. 10, Mataram",SHMT,1,2023,70.1460058,28,14,12023,Q1-2023,S1-2023
+29.0,Region 2,BPJS,BPJS,Siloam Hospitals Purwakarta,Null,SHPW,1,2023,70.98155957,27,15,12023,Q1-2023,S1-2023
+51.0,Region 2,Ramping Up,Value Seeker,Siloam Hospitals Semarang,Jl. Kompol Maksum No. 296 Semarang  Telp : (024) - 8600 1 900,SHSR,1,2023,71.67919347,26,16,12023,Q1-2023,S1-2023
+48.0,Region 4,Ramping Up,Value Seeker,Siloam Hospitals Banjarmasin,,SHBJ,1,2023,73.08783816,25,17,12023,Q1-2023,S1-2023
+41.0,Region 3,Ramping Up,BPJS,Siloam Hospitals Ambon,,SHAB,1,2023,74.15216828,24,18,12023,Q1-2023,S1-2023
+7.0,Region 1,BPJS,BPJS,Rumah Sakit Umum Siloam,Jalan Siloam No.6 Tangerang,RSUS,1,2023,75.99265973,23,19,12023,Q1-2023,S1-2023
+13.0,Region 5,Ramping Up,BPJS,Siloam Hospitals Bangka Tengah,Null,SHBB,1,2023,76.03766149,22,20,12023,Q1-2023,S1-2023
+39.0,Region 3,Ramping Up,BPJS,Siloam Hospital Labuan Bajo,,SHLB,1,2023,76.48727696,21,21,12023,Q1-2023,S1-2023
+3.0,Region 1,Flagship,Premium,Siloam Hospitals Kebon Jeruk,"Jl. Raya Pejuangan Kav 8 Kebon Jeruk, Jakarta Barat  Telp: 021-25677888 ",SHKJ,1,2023,76.61020103,20,22,12023,Q1-2023,S1-2023
+19.0,Region 1,Flagship,Premium, MRCCC Siloam Hospitals Semanggi,Null,MRCCC,1,2023,76.73592881,19,23,12023,Q1-2023,S1-2023
+6.0,Region 5,Mature,Value Seeker,Siloam Hospitals Jambi,"Jl. Soekarno Hatta, Paal Merah  Jambi, Kota",SHJB,1,2023,76.99608126,18,24,12023,Q1-2023,S1-2023
+11.0,Region 2,Mature,Value Seeker,Siloam Hospitals Yogyakarta,"Pt. Taruna Perkasa Megah Jalan Laksda Adisucipto 32-34 Yogyakarta, 55221",SHYG,1,2023,79.09964912,17,25,12023,Q1-2023,S1-2023
+31.0,Region 2,Ramping Up,BPJS, Siloam Hospitals Subanu Wathon,Null,RSUSW,1,2023,79.10768439,16,26,12023,Q1-2023,S1-2023
+37.0,Region 2,BPJS,Premium,Siloam Hospitals Bekasi Timur,Null,SHBT,1,2023,79.31217156,15,27,12023,Q1-2023,S1-2023
+20.0,Region 5,Ramping Up,BPJS,Siloam Hospitals Lubuk Linggau,"Pt. Lintang Laksana Utama  Jalan Yos Sudarso Rt.011  Taba Jemekeh, Lubuk Linggau Timur 1  Kota Lubuk Linggau, Sumatera Selatan  ",SHLL,1,2023,79.98971285,14,28,12023,Q1-2023,S1-2023
+30.0,Region 1,Distinct,Value Seeker,- Siloam Hospitals Kelapa Dua,Jl. Kelapa Dua Raya No 1001,RSUSKD,1,2023,80.16673783,13,29,12023,Q1-2023,S1-2023
+22.0,Region 2,Mature,BPJS,Rumah Sakit Putera Bahagia,Jl. Ciremai Raya No. 114 Kota Cirebon   Telp : (0231) - 485654,SHCB,1,2023,80.82861324,12,30,12023,Q1-2023,S1-2023
+2.0,Region 1,Flagship,Premium,Siloam Hospitals Lippo Village,Jalan Siloam No.6 Tangerang  Telp : 021 - 5460055  Fax  : 021 - 54210090,SHLV,1,2023,81.49616758,11,31,12023,Q1-2023,S1-2023
+81.0,Region 3,Distinct,Premium,SA DUA - BIMC Nusa Dua,,BIMC NUSA DUA,1,2023,82.83806102,10,32,12023,Q1-2023,S1-2023
+42.0,Region 4,Ramping Up,BPJS,Siloam Hospitals Paal Dua,,SHPD,1,2023,83.24678646,9,33,12023,Q1-2023,S1-2023
+80.0,Region 3,Distinct,Premium,TA - BIMC Kuta,,BIMC KUTA,1,2023,83.74299891,8,34,12023,Q1-2023,S1-2023
+8.0,Region 1,Mature,Premium,RS Jantung Diagram,Null,SHCN,1,2023,84.6819165,7,35,12023,Q1-2023,S1-2023
+25.0,Region 2,BPJS,Value Seeker,Rumah Sakit Umum Sentosa Bekasi,"Jl. Pahlawan No. 60, Duren Jaya,  Bekasi Timur  Telp : (021) - 880 6140",SHST,1,2023,85.7114079,6,36,12023,Q1-2023,S1-2023
+16.0,Region 3,BPJS,BPJS,Siloam Hospitals Kupang,"Jl. R.W Mongonsidi, Kel. Fatululi, Kec. Oebobo  Kota Kupang, Ntt  No. Telp. 0380-8530 900",SHKP,1,2023,86.26468342,5,37,12023,Q1-2023,S1-2023
+43.0,Region 4,Ramping Up,BPJS,Siloam Hospital Baubau,,SHBN,1,2023,86.51211403,4,38,12023,Q1-2023,S1-2023
+36.0,Region 2,Mature,Value Seeker,Siloam Hospital Bekasi Selatan (Hosana),,SHBS,1,2023,87.53154466,3,39,12023,Q1-2023,S1-2023
+9.0,Region 4,Mature,Value Seeker,Siloam Hospitals Makassar,Jalan Metro Tanjung Bunga Kav. 9  Tanjung Merdeka - Tamalate  Makassar,SHMK,1,2023,90.47327492,2,40,12023,Q1-2023,S1-2023
+5.0,Region 3,Mature,Premium,Siloam Hospitals Surabaya,Null,SHSB,1,2023,91.39569184,1,41,12023,Q1-2023,S1-2023

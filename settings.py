@@ -36,6 +36,7 @@ class CopilotSettings(BaseSettings):
     GCP_PROJECT_ID: str = "test"
     GCP_SERVICE_ACCOUNT: str = "service-account.json"
     GCP_MODEL_NAME: str = "text-bison@002"
+    GCP_GEMINI_MODEL_NAME: str = "gemini-1.5-pro-001"
     GCP_AGENT_MODEL_NAME: str = "text-bison-32k@002"
     GCP_EMBEDDING_MODEL_NAME: str = "textembedding-gecko-multilingual@latest"
     GCP_CODE_MODEL_NAME: str = "code-bison@latest"
