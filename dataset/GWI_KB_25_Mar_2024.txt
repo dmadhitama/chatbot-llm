@@ -1,0 +1,266 @@
+Project Background
+PT Siloam International Hospitals Tbk or Siloam Hospitals is a chain of healthcare facilities in Indonesia. It is a publicly listed company that is part of Lippo Group. Siloam has many hospital units under them and it is crucial to keep its units in check. As such, they need of building a group-wide indicator reporting dashboard. For now, they have done it manually, but it is inconvenient and inefficient.
+Along with the rapid growth of Siloam Group’s business over the past few years, the amount of data collected and used by Siloam Group as the indicators in the decision making process is also increasing. However, the expansion of data is not supported by adequate automation, so it creates many challenges, such as the validity of the data due to the amount of manual process used in the data, the inefficiencies in the process by using excess human and time resources in the data collection process manually and the high risk of error caused by manual data processing.
+The goal of this project is to automate the whole reporting process from the data ingestion to the dashboarding. Several indicators have been calculated automatically in a system, resulting in a score per indicator. The challenge is that there are still many indicators that are calculated manually. The GWI project was carried out so that some of these indicators can be processed automatically and the end goal could produce a GWI Score.
+Workflow
+The data from the on-premise server then needs to be stored in a Data Warehouse for analytical purposes. We will be keeping tabular data in BigQuery, users with access can query directly from the BigQuery interface. To build this, we will need to store data in intermediate storage, in this case, we use Google Cloud Storage (GCS) and then load the data directly into BigQuery.
+The data sources for GWI Phase I come from several systems, which include: 
+1. Database(s):
+1. BI DWH
+2. HIS
+3. SAVE
+4. STG
+5. Power BI Finance
+6. SingleQ
+7. MCU Report
+8. EMR
+9. Doct Govt System
+2. API(s):
+1. MySiloam
+2. EMR
+3. Google Spreadsheet(s):
+1. GWI - Data Source
+2. GWI - Data Source Indicator Manual
+
+
+Spark will be used as the main tool for data pulling and processing to move data from the data sources into the data warehouse, more specifically we will use PySpark in all our ETL scripts.
+To make spark script running, we will use Dataproc as a server cluster, and then all of this workflow will be triggered by Airflow as our main orchestrator/scheduler. 
+Tools:
+1. Spark (PySpark)
+2. Dataproc as Spark server cluster
+3. Bash for creating workflow template
+4. BigQuery client as the official library to load the data
+5. Python 3.7.0
+To connect to BI Tools (in this case we use Power BI) from Data Warehouse, credentials are handled by IAM to specific users.
+After the data have successfully been ingested into the BigQuery data warehouse, they will be then transformed to calculate the GWI index score.
+The transformation process will be run daily so we can see the running total of the GWI index results, values, and scores.
+The resulted transformation will be used to build the reporting dashboard.
+Pipeline:
+* Calculate and store in the index results
+* Calculate and store in the index values
+* Calculate and store in the index scores
+GWI
+        Group Wide Indicators (GWIs) are quantifiable measurements used to gauge a company’s overall long-term performance. GWI specifically help determine a company’s strategic, financial, and operational achievements, especially compared to those of other businesses within the same sector. GWI  are focused on a much tighter time frame. GWI measure how a company is doing month over month (or even day over day) by analyzing different processes, segments, and locations of hospital. To find GWI Score, first we need to find the Indicators Score which is calculate and store in index results table. Indicator will be grouped into their own Perspective. Each Perspective have their own way of calculation, but every result of it will be stored in the index values. Lastly, GWI Score will be calculated if every Perspective already have their own result. One unit hospital in Siloam Group will have their own number of Indicator, Perspective, and GWI Score.
+Perspective
+        To calculate GWI, the Indicators grouped into 4 different perspectives, which are Financial, Customer, Internal Process, and Learning & Growth. Financial Perspective is built to fulfil our shareholders and stakeholders’ expectation for financial performance / social outcome. Customer Perspective is built to know the values we provide to our customer to reach our outcomes. Internal Process Perspective is built to measure what need to excel in order to deliver our services and provide value. Last, Learning and Growth Perspective is built to see skills, capabilities, and organizational structure to develop and retain in order to drive our operations.
+Internal Process
+Internal Process Perspective is a well-defined performance measure used to monitor, analyse, and optimize all relevant processes and practices of the facility’s staff to increase patient satisfaction and diminish any possible errors or damages. Within this perspective, there are several categories:
+1. Clinical Governance
+2. IPD Bundle
+3. MCU
+4. OPD Transformation
+5. Productivity
+6. Supporting Data - Leading
+Within this perspective, there are 7 categories: Clinical Governance, IPD Bundle, MCU, OPD Transformation, Productivity, and Supporting Data - Leading. Clinical Governance is a practice-based, value-driven approach that has the goal of delivering the highest possible quality care and ensuring the safety of patients. IPD Bundle refers to the process of developing and improving services specifically for patients who require inpatient care. The OPD Transformation category focuses on optimizing the outpatient services provided by the hospital. The Productivity category revolves around maximizing the efficiency and productivity of various operational processes within the hospital. 
+OPD Transformation
+OPD (Outpatient Department) transformation focuses on enhancing the efficiency and quality of services provided to outpatient clients. The following are several indicators in the OPD Transformation category.
+1. C-AO/32 : Cashier waiting time - OPE (single Q - OPD)
+Description
+This indicator measures the average duration that patients spend waiting from the end of consultation until the completion of their payment transaction.
+        Numerator
+        Average cashier waiting time for OPE patients.
+        Denominator
+        -
+        Inclusion
+        - Payer Group Name
+1. (blank)
+2. OPE
+- Different Day:
+1. Same day
+Exclusion
+        Patients with BPJS payers
+2. C-AO/33 : Cashier waiting time - Corporate & Insurance  (single Q - OPD)
+Description
+This indicator measures the average duration that patients spend waiting from the end of consultation until the completion of their payment transaction.
+        Numerator
+        Average cashier waiting time for Corporate & Insurance patients.
+        Denominator
+        -
+        Inclusion
+        - Payer Group Name
+1. Corporate
+2. Insurance
+3. Interhospitals
+4. Siloam Employee
+- Different Day:
+1. Same day
+        Exclusion
+        Patients with BPJS payers
+
+
+3. C-AO/34 : Registration waiting time - OPE  (single Q - OPD)
+Description
+The average time from when a patient retrieves their registration queue number until their queue number is called by the registration staff.
+        Numerator
+        Average registration waiting time for OPE patients.
+        Denominator
+        -
+        Inclusion
+        - Payer Group Name
+1. (blank)
+2. OPE
+- Different Day:
+1. Same day
+        Exclusion
+        Patients with BPJS payers
+4. C-AO/35 : Registration waiting time - Corporate & Insurance  (single Q - OPD)
+Description
+The average time from when a patient retrieves their registration queue number until their queue number is called by the registration staff.
+        Numerator
+        Average registration waiting time for Corporate & Insurance patients.
+        Denominator
+        -
+        Inclusion
+        - Payer Group Name
+1. Corporate
+2. Insurance
+3. Interhospitals
+4. Siloam Employee
+- Different Day:
+1. Same day
+        Exclusion
+        Patients with BPJS payers
+5. C-AO/36 : Pharmacy waiting time  (single Q - OPD)
+Description
+For hospital units that have not implemented the Single Queue system:
+The average time from when the pharmacy queue number is printed until the pharmacy queue number is called by the Pharmacy Staff.
+
+
+For hospital units that have implemented the Single Queue system:
+The average time from when the patient completes billing until their queue number is called by the Pharmacy Staff.
+        Numerator
+        Total time of all recipes served.
+        Denominator
+        Total recipes served.
+        Inclusion
+        -
+        Exclusion
+        -
+6. C-AO/37 : Registration % Achievement Waiting Time (10 Minutes) - Corporate & Insurance
+Description
+The achievement of patient registration in the Outpatient Department (OPD) with corporate and insurance payers, where the waiting time is less than or equal to 10 minutes.
+        Numerator
+        Total OPD (Corporate & Insurance) visits where the waiting time for registration was ≤ 10 minutes.
+        Denominator
+        Total OPD (Corporate & Insurance) visits.
+        Inclusion
+        - Payer Group Name
+1. Corporate
+2. Insurance
+3. Interhospitals
+4. Siloam Employee
+- Different Day:
+1. Same day
+        Exclusion
+        1. Patients with BPJS payers
+2. Patients whose waiting time cannot be calculated due to incomplete data points
+7. C-AO/38 : Registration % Achievement Waiting Time (5 Minutes) - OPE
+Description
+The achievement of OPD patient registration with OPE payers where the waiting time is less than or equal to 5 minutes.
+        Numerator
+        Total OPD visits (OPE) where the waiting time for registration was ≤ 5 minutes.
+        Denominator
+        Total OPD (OPE) visits.
+        Inclusion
+        - Payer Group Name
+1. (blank)
+2. OPE
+- Different Day:
+1. Same day
+        Exclusion
+        1. Patients with BPJS payers
+2. Patients whose waiting time cannot be calculated due to incomplete data points
+8. C-AO/39 : Cashier % Achievement Waiting Time (20 Minutes) - Corporate & Insurance
+Description
+The achievement of the wait time for OPD patient cashier services with Corporate & Insurance payer that is less than or equal to 20 minutes.
+        Numerator
+Total OPD patient visits with Corporate & Insurance payers where the cashier waiting time was ≤ 20 minutes.
+        Denominator
+        Total OPD patient visits with Corporate & Insurance payers.
+        Inclusion
+        - Payer Group Name
+1. Corporate
+2. Insurance
+3. Interhospitals
+4. Siloam Employee
+- Different Day:
+1. Same day
+        Exclusion
+        1. Patients with BPJS payers
+2. Patients whose waiting time cannot be calculated due to incomplete data points
+9. C-AO/40 : Cashier % Achievement Waiting Time (10 Minutes) - OPE
+Description
+The achievement of the wait time for OPD patient cashier services with OPE payer that is less than or equal to 20 minutes.
+        Numerator
+Total OPD patient visits with OPE payers where the cashier waiting time was ≤ 10 minutes.
+        Denominator
+        Total OPD patient visits with OPE payers.
+        Inclusion
+        - Payer Group Name
+1. (blank)
+2. OPE
+- Different Day:
+1. Same day
+        Exclusion
+        1. Patients with BPJS payers
+2. Patients whose waiting time cannot be calculated due to incomplete data points
+10. C-AO/41 : Pharmacy Verified-to-Call Lead Time - Corporate & Insurance (Non-Racikan)
+Description
+For hospital units that have not implemented the Single Queue system:
+The average time from when the pharmacy queue number is printed until the pharmacy queue number is called by the Pharmacy Staff.
+
+
+For hospital units that have implemented the Single Queue system:
+The average time from when the prescription is verified until the queue number is called by the Pharmacy Staff.
+        Numerator
+The total time taken to process all prescriptions served for corporate and insurance payers.
+        Denominator
+        Total prescriptions served for corporate & insurance payers.
+        Inclusion
+        Non-prescription medication.
+
+
+* Payer:
+1. Corporate
+2. Corporate Guarantee
+3. Insurance
+4. Interhospitals
+5. KMK
+6. Siloam Employee
+* Different Day: 
+1. Same Day
+        Exclusion
+        1. Prescription medication
+2. Retail (non-prescription medicine purchases)
+3. BPJS patient prescription
+4. Patients with Lab = TRUE
+5. Patients with Rad = TRUE
+6. Different Day = Different Day
+11. C-AO/42 : Pharmacy Verified-to-Call Lead Time - OPE (Non-Racikan)
+Description
+For hospital units that have not implemented the Single Queue system:
+Average time from when the pharmacy queue number is printed until the pharmacy staff calls out the queue number.
+
+
+For hospital units that have implemented the Single Queue system:
+Average time from prescription verification until the queue number is called by the pharmacy staff.
+        Numerator
+The total time taken to process all prescriptions served for OPE payers.
+        Denominator
+        Total prescriptions served for OPE payers.
+        Inclusion
+        Non-prescription medication.
+
+
+* Payer:
+1. (blank)
+2. OPE 
+* Different Day: 
+1. Same Day
+        Exclusion
+        1. Prescription medication
+2. Retail (non-prescription medicine purchases)
+3. BPJS patient prescription
+4. Patients with Lab = TRUE
+5. Patients with Rad = TRUE
+6. Different Day = Different Day
