@@ -164,6 +164,7 @@ envs/
 
 # Data
 data/
+dataset/
 *.csv
 *.xslx
 

@@ -55,6 +55,9 @@ class CopilotSettings(BaseSettings):
     EMBEDDING_DIM: int = 768
     MAX_SQL_GENERATOR_RETRIES: int = 1
 
+    AZURE_DOCS_INT_ENDPOINT: str = "https://www.google.com"
+    AZURE_DOCS_INT_API_KEY: str = "das312"
+
     # DB
     DATA_FOLDER: Path = Path("data")
     SERVICE_ACCOUNT_FOLDER: Path = Path("service_account")
